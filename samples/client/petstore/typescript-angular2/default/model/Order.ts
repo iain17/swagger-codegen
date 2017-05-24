@@ -30,9 +30,9 @@ export class Order {
 
 }
 export namespace OrderEnums {
-    export enum StatusEnum {
-        Placed = <any> "placed",
-        Approved = <any> "approved",
-        Delivered = <any> "delivered"
+    export const StatusEnum = {
+        Placed: "placed",
+        Approved: "approved",
+        Delivered: "delivered"
     }
 }

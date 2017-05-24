@@ -50,8 +50,11 @@ export class PetApi {
             .map((response: Response) => {
                 if (response.status === 204) {
                     return undefined;
-                } else {
+                }
+                try {
                     return response.json() || {};
+                }catch(e){
+                    return {};
                 }
             });
     }
@@ -67,8 +70,11 @@ export class PetApi {
             .map((response: Response) => {
                 if (response.status === 204) {
                     return undefined;
-                } else {
+                }
+                try {
                     return response.json() || {};
+                }catch(e){
+                    return {};
                 }
             });
     }
@@ -83,8 +89,11 @@ export class PetApi {
             .map((response: Response) => {
                 if (response.status === 204) {
                     return undefined;
-                } else {
+                }
+                try {
                     return response.json() || {};
+                }catch(e){
+                    return {};
                 }
             });
     }
@@ -99,8 +108,11 @@ export class PetApi {
             .map((response: Response) => {
                 if (response.status === 204) {
                     return undefined;
-                } else {
+                }
+                try {
                     return response.json() || {};
+                }catch(e){
+                    return {};
                 }
             });
     }
@@ -115,8 +127,11 @@ export class PetApi {
             .map((response: Response) => {
                 if (response.status === 204) {
                     return undefined;
-                } else {
+                }
+                try {
                     return response.json() || {};
+                }catch(e){
+                    return {};
                 }
             });
     }
@@ -131,8 +146,11 @@ export class PetApi {
             .map((response: Response) => {
                 if (response.status === 204) {
                     return undefined;
-                } else {
+                }
+                try {
                     return response.json() || {};
+                }catch(e){
+                    return {};
                 }
             });
     }
@@ -149,8 +167,11 @@ export class PetApi {
             .map((response: Response) => {
                 if (response.status === 204) {
                     return undefined;
-                } else {
+                }
+                try {
                     return response.json() || {};
+                }catch(e){
+                    return {};
                 }
             });
     }
@@ -167,8 +188,11 @@ export class PetApi {
             .map((response: Response) => {
                 if (response.status === 204) {
                     return undefined;
-                } else {
+                }
+                try {
                     return response.json() || {};
+                }catch(e){
+                    return {};
                 }
             });
     }

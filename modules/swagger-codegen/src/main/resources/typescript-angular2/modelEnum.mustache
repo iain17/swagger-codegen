@@ -3,10 +3,10 @@
     * {{{description}}}
     */
 {{/description}}
-export enum {{classname}} {
+export const {{classname}} = {
 {{#allowableValues}}
 {{#enumVars}}
-    {{{name}}} = <any> {{{value}}}{{^-last}},{{/-last}}
+    {{{name}}}: {{{value}}}{{^-last}},{{/-last}}
 {{/enumVars}}
 {{/allowableValues}}
 }

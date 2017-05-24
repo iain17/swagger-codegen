@@ -30,9 +30,9 @@ export class Pet {
 
 }
 export namespace PetEnums {
-    export enum StatusEnum {
-        Available = <any> "available",
-        Pending = <any> "pending",
-        Sold = <any> "sold"
+    export const StatusEnum = {
+        Available: "available",
+        Pending: "pending",
+        Sold: "sold"
     }
 }
